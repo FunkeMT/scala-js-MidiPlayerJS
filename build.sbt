@@ -12,7 +12,7 @@ organization := "com.github.funkemt"
 scalaJSStage in Global := FullOptStage // FastOptStage
 
 libraryDependencies ++= Seq(
-  "org.scala-js" %%% "scalajs-dom" % "0.9.3"
+  "org.scala-js" %%% "scalajs-dom" % "0.9.1"
 )
 
 jsDependencies += RuntimeDOM
