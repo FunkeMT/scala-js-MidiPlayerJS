@@ -23,6 +23,24 @@ The following supporting scala.js façades are included, **Player**.
 Using Scala.js-0.6.10, Scala-2.11.8, sbt-0.13.11
 
 
+## Usage   
+   
+To publish this library locally, type:
+   
+     sbt publishLocally
+   
+This will put ` "com.github.funkemt" %%% "scala-js-midiplayerjs" % "0.1-SNAPSHOT" ` into your local repository.
+
+Then in your [Scala.js](https://www.scala-js.org/) app build.sbt file, simply include:
+    
+     libraryDependencies += "com.github.funkemt" %%% "scala-js-midiplayerjs" % "0.1-SNAPSHOT"
+     
+Don't forget to add the JavaScript library itself.
+MidiPlayerJS is available at [WebJars](https://www.webjars.org)
+
+     libraryDependencies += "org.webjars.npm" % "midi-player-js" % "2.0.3",
+
+
 ## Status
 
 Experimental
