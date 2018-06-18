@@ -1,5 +1,7 @@
 # Scala.js façade for MidiPlayerJS
 
+[![Scala.js](https://www.scala-js.org/assets/badges/scalajs-0.6.8.svg)](https://www.scala-js.org)
+
 [MidiPlayerJS](https://github.com/grimmdude/MidiPlayerJS) is a JavaScript library which handels MIDI files and converts MIDI events into JSON.
 
 See also [MidiPlayerJS Docs](http://grimmdude.com/MidiPlayerJS/docs/) for additional information.
