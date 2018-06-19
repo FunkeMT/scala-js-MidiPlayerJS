@@ -14,6 +14,7 @@ class Player(eventHandler: js.Function = null, buffer: js.Array[Any] = null) ext
   def pause(): Player = js.native
   def stop(): Player = js.native
   def setTempo(tempo: Int): Unit = js.native
+  def getSongPercentRemaining(): Int = js.native
 
   def on(eventName: String, handler: js.Function): Unit = js.native
 
