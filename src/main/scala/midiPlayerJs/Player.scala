@@ -29,4 +29,5 @@ trait MidiEvent extends js.Object {
   val noteName: String
   val velocity: Float
   val value: js.UndefOr[Int]
+  val data: js.UndefOr[Int]
 }
