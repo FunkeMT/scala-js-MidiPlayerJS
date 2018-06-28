@@ -1,12 +1,15 @@
 enablePlugins(ScalaJSPlugin)
 
-version := "0.1-SNAPSHOT"
+version := "0.1"
 
 scalaVersion := "2.11.8"
-
-name := "scala-js-midiplayerjs"
+name := "scala-js-MidiPlayerJS"
 
 organization := "com.github.funkemt"
+
+bintrayRepository := "maven"
+bintrayOrganization := None
+licenses := Seq("MIT" -> url("http://www.opensource.org/licenses/mit-license.html"))
 
 
 scalaJSStage in Global := FullOptStage // FastOptStage
